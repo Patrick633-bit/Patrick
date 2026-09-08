@@ -1,0 +1,97 @@
+/* Import a fun, readable tech font */
+@import url('https://googleapis.com');
+
+:root {
+  --bg-color: #0f172a;       /* Deep space blue */
+  --card-bg: #1e293b;        /* Lighter dark blue for blocks */
+  --text-color: #f8fafc;     /* Bright white text */
+  --accent-purple: #c084fc;  /* Neon purple */
+  --accent-cyan: #22d3ee;    /* Bright laser cyan */
+  --accent-yellow: #fde047;  /* Sunny yellow */
+}
+
+body {
+  font-family: 'Fredoka', sans-serif; /* Playful, rounded font for body */
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Big Header Area */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #6366f1, #a855f7); /* Bright blue to purple gradient */
+  border-radius: 24px;
+  box-shadow: 0 8px 0px rgba(0, 0, 0, 0.3); /* Thick, cartoonish bottom shadow */
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif; /* Cool sci-fi font for titles */
+  font-size: 3rem;
+  margin: 0;
+  color: var(--accent-yellow);
+  text-shadow: 3px 3px 0px #000; /* Fun pop-out text style */
+}
+
+header p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Content Container */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Fun Code/Info Blocks */
+.card {
+  background-color: var(--card-bg);
+  border: 4px solid var(--accent-purple); /* Thick colorful borders */
+  border-radius: 20px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0px var(--accent-cyan); /* Fun neon offset shadow */
+}
+
+h2 {
+  color: var(--accent-cyan);
+  margin-top: 0;
+}
+
+/* Interactive Buttons */
+button, .btn {
+  display: inline-block;
+  background-color: var(--accent-yellow);
+  color: #000;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  border: 3px solid #000;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #000;
+  transition: all 0.1s ease;
+  text-decoration: none;
+}
+
+/* Button Push Animation */
+button:hover, .btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000;
+}
+
+/* Code Syntax block highlight for kids */
+code {
+  font-family: monospace;
+  background-color: #000;
+  color: #4ade80; /* Classic hacker green */
+  padding: 4px 8px;
+  border-radius: 6px;
+}
